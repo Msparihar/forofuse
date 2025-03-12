@@ -1,0 +1,408 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "basic_info": {
+        "name": "Alex Chen",
+        "location": "New York City",
+        "profession": "Machine Learning Engineer",
+        "age": 28
+      },
+      "interests": [
+        "artificial intelligence",
+        "deep learning",
+        "hiking",
+        "photography",
+        "sustainable technology"
+      ],
+      "values": [
+        "environmental conservation",
+        "continuous learning",
+        "work-life balance",
+        "innovation"
+      ],
+      "expertise": {
+        "areas": [
+          "machine learning",
+          "computer vision",
+          "python",
+          "tensorflow"
+        ],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "hybrid",
+        "communication_preferences": ["slack", "video calls"],
+        "work_environment": "startup"
+      },
+      "activities": [
+        "AI research projects",
+        "weekend hiking",
+        "tech meetups",
+        "nature photography"
+      ]
+    },
+    {
+      "id": "user_002",
+      "basic_info": {
+        "name": "Sarah Martinez",
+        "location": "San Francisco",
+        "profession": "Environmental Scientist",
+        "age": 32
+      },
+      "interests": [
+        "climate change",
+        "biodiversity",
+        "data science",
+        "outdoor activities",
+        "community organizing"
+      ],
+      "values": [
+        "environmental protection",
+        "social justice",
+        "scientific integrity",
+        "community engagement"
+      ],
+      "expertise": {
+        "areas": [
+          "environmental impact assessment",
+          "GIS",
+          "data analysis",
+          "conservation"
+        ],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "team-based",
+        "communication_preferences": ["email", "in-person meetings"],
+        "work_environment": "research"
+      },
+      "activities": [
+        "conservation projects",
+        "community workshops",
+        "field research",
+        "environmental advocacy"
+      ]
+    },
+    {
+      "id": "user_003",
+      "basic_info": {
+        "name": "David Park",
+        "location": "Seattle",
+        "profession": "Software Developer",
+        "age": 25
+      },
+      "interests": [
+        "web development",
+        "hiking",
+        "rock climbing",
+        "open source",
+        "sustainable living"
+      ],
+      "values": [
+        "open knowledge",
+        "environmental consciousness",
+        "community contribution",
+        "personal growth"
+      ],
+      "expertise": {
+        "areas": ["javascript", "react", "node.js", "cloud computing"],
+        "level": "intermediate"
+      },
+      "preferences": {
+        "collaboration_style": "remote",
+        "communication_preferences": ["discord", "github"],
+        "work_environment": "remote-first"
+      },
+      "activities": [
+        "coding meetups",
+        "weekend climbing",
+        "open source contributions",
+        "tech blogging"
+      ]
+    },
+    {
+      "id": "user_004",
+      "basic_info": {
+        "name": "Emily Wong",
+        "location": "Boston",
+        "profession": "AI Researcher",
+        "age": 30
+      },
+      "interests": [
+        "natural language processing",
+        "ethics in AI",
+        "classical music",
+        "philosophy",
+        "tennis"
+      ],
+      "values": [
+        "ethical technology",
+        "intellectual curiosity",
+        "diversity in tech",
+        "mentorship"
+      ],
+      "expertise": {
+        "areas": ["NLP", "machine learning", "research methods", "python"],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "academic",
+        "communication_preferences": ["academic papers", "research seminars"],
+        "work_environment": "university"
+      },
+      "activities": [
+        "research publications",
+        "conference presentations",
+        "student mentoring",
+        "tennis club"
+      ]
+    },
+    {
+      "id": "user_005",
+      "basic_info": {
+        "name": "Michael Green",
+        "location": "Portland",
+        "profession": "Conservation Biologist",
+        "age": 35
+      },
+      "interests": [
+        "wildlife conservation",
+        "nature photography",
+        "hiking",
+        "citizen science",
+        "environmental education"
+      ],
+      "values": [
+        "biodiversity preservation",
+        "public education",
+        "scientific outreach",
+        "sustainability"
+      ],
+      "expertise": {
+        "areas": [
+          "wildlife biology",
+          "ecosystem management",
+          "public outreach"
+        ],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "field-based",
+        "communication_preferences": ["in-person", "field reports"],
+        "work_environment": "outdoors"
+      },
+      "activities": [
+        "wildlife surveys",
+        "nature photography",
+        "public lectures",
+        "conservation planning"
+      ]
+    },
+    {
+      "id": "user_006",
+      "basic_info": {
+        "name": "Lisa Johnson",
+        "location": "Austin",
+        "profession": "Tech Entrepreneur",
+        "age": 29
+      },
+      "interests": [
+        "startups",
+        "AI applications",
+        "sustainable business",
+        "yoga",
+        "meditation"
+      ],
+      "values": [
+        "innovation",
+        "sustainability",
+        "work-life balance",
+        "social impact"
+      ],
+      "expertise": {
+        "areas": [
+          "business strategy",
+          "AI product development",
+          "team leadership"
+        ],
+        "level": "intermediate"
+      },
+      "preferences": {
+        "collaboration_style": "agile",
+        "communication_preferences": ["slack", "quick meetings"],
+        "work_environment": "startup"
+      },
+      "activities": [
+        "startup mentoring",
+        "tech conferences",
+        "morning yoga",
+        "meditation retreats"
+      ]
+    },
+    {
+      "id": "user_007",
+      "basic_info": {
+        "name": "James Wilson",
+        "location": "Denver",
+        "profession": "Data Scientist",
+        "age": 31
+      },
+      "interests": [
+        "machine learning",
+        "mountain climbing",
+        "skiing",
+        "data visualization",
+        "renewable energy"
+      ],
+      "values": [
+        "environmental sustainability",
+        "data-driven decisions",
+        "outdoor adventure",
+        "knowledge sharing"
+      ],
+      "expertise": {
+        "areas": [
+          "data science",
+          "python",
+          "statistical analysis",
+          "visualization"
+        ],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "flexible",
+        "communication_preferences": ["teams", "jupyter notebooks"],
+        "work_environment": "hybrid"
+      },
+      "activities": [
+        "data science meetups",
+        "weekend skiing",
+        "technical blogging",
+        "mountain expeditions"
+      ]
+    },
+    {
+      "id": "user_008",
+      "basic_info": {
+        "name": "Rachel Kim",
+        "location": "Chicago",
+        "profession": "UX Researcher",
+        "age": 27
+      },
+      "interests": [
+        "user experience",
+        "cognitive psychology",
+        "art museums",
+        "urban sketching",
+        "accessibility"
+      ],
+      "values": [
+        "inclusive design",
+        "user empowerment",
+        "artistic expression",
+        "cultural awareness"
+      ],
+      "expertise": {
+        "areas": [
+          "user research",
+          "interaction design",
+          "accessibility testing"
+        ],
+        "level": "intermediate"
+      },
+      "preferences": {
+        "collaboration_style": "user-centered",
+        "communication_preferences": ["design workshops", "user interviews"],
+        "work_environment": "design studio"
+      },
+      "activities": [
+        "UX workshops",
+        "art exhibitions",
+        "sketching meetups",
+        "accessibility advocacy"
+      ]
+    },
+    {
+      "id": "user_009",
+      "basic_info": {
+        "name": "Thomas Brown",
+        "location": "Vancouver",
+        "profession": "Climate Scientist",
+        "age": 34
+      },
+      "interests": [
+        "climate modeling",
+        "data analysis",
+        "hiking",
+        "kayaking",
+        "environmental policy"
+      ],
+      "values": [
+        "scientific accuracy",
+        "environmental action",
+        "global cooperation",
+        "public awareness"
+      ],
+      "expertise": {
+        "areas": [
+          "climate modeling",
+          "data analysis",
+          "scientific communication"
+        ],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "research-oriented",
+        "communication_preferences": [
+          "academic collaboration",
+          "public outreach"
+        ],
+        "work_environment": "research institute"
+      },
+      "activities": [
+        "climate research",
+        "policy advocacy",
+        "outdoor adventures",
+        "science communication"
+      ]
+    },
+    {
+      "id": "user_010",
+      "basic_info": {
+        "name": "Maya Patel",
+        "location": "New York City",
+        "profession": "AI Ethics Researcher",
+        "age": 33
+      },
+      "interests": [
+        "AI ethics",
+        "philosophy of technology",
+        "social impact",
+        "dance",
+        "cultural studies"
+      ],
+      "values": [
+        "ethical AI development",
+        "cultural diversity",
+        "social responsibility",
+        "transparency"
+      ],
+      "expertise": {
+        "areas": ["AI ethics", "policy development", "cultural studies"],
+        "level": "expert"
+      },
+      "preferences": {
+        "collaboration_style": "interdisciplinary",
+        "communication_preferences": ["academic papers", "policy briefs"],
+        "work_environment": "think tank"
+      },
+      "activities": [
+        "ethics workshops",
+        "policy development",
+        "cultural events",
+        "dance performances"
+      ]
+    }
+  ]
+}
