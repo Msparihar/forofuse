@@ -2,7 +2,13 @@ import subprocess
 import sys
 import time
 import webbrowser
+import os
 from pathlib import Path
+
+# Add backend directory to Python path
+project_root = Path(__file__).parent
+sys.path.append(str(project_root))
+os.environ["PYTHONPATH"] = str(project_root)
 
 
 def check_qdrant():
@@ -35,13 +41,14 @@ def start_backend():
 
 
 def start_frontends():
-    """Start both Streamlit frontends"""
+    """Start Streamlit frontends"""
     print("Starting Streamlit frontends...")
     user_matching = subprocess.Popen(["streamlit", "run", "frontend/pages/user_matching.py", "--server.port", "8501"])
     image_recommendation = subprocess.Popen(
         ["streamlit", "run", "frontend/pages/image_recommendation.py", "--server.port", "8502"]
     )
-    return user_matching, image_recommendation
+    product_search = subprocess.Popen(["streamlit", "run", "frontend/pages/product_search.py", "--server.port", "8503"])
+    return user_matching, image_recommendation, product_search
 
 
 def main():
@@ -53,17 +60,19 @@ def main():
 
     # Start backend and frontends
     backend_process = start_backend()
-    user_matching_process, image_recommendation_process = start_frontends()
+    user_matching_process, image_recommendation_process, product_search_process = start_frontends()
 
     try:
         # Open the applications in the default browser
         time.sleep(3)  # Wait for servers to start
         webbrowser.open("http://localhost:8501")  # User Matching UI
         webbrowser.open("http://localhost:8502")  # Image Recommendation UI
+        webbrowser.open("http://localhost:8503")  # Product Search UI
 
         print("\nApplications are running!")
         print("User Matching UI: http://localhost:8501")
         print("Image Recommendation UI: http://localhost:8502")
+        print("Product Search UI: http://localhost:8503")
         print("Backend API: http://localhost:8000")
         print("\nPress Ctrl+C to stop all services...")
 
@@ -74,6 +83,7 @@ def main():
         backend_process.terminate()
         user_matching_process.terminate()
         image_recommendation_process.terminate()
+        product_search_process.terminate()
         print("Services stopped")
 
 

@@ -8,6 +8,7 @@ dependencies = [
     "fastapi[standard]>=0.115.11",
     "langchain>=0.3.20",
     "qdrant-client[fastembed]>=1.13.3",
+    "sentence-transformers>=3.4.1",
     "streamlit>=1.43.2",
     "torch>=2.6.0",
     "transformers>=4.49.0",
